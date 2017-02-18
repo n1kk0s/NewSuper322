@@ -9,3 +9,8 @@ body {
 #light {
     background-color: #f1f1f1;
 }
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
