@@ -19,3 +19,9 @@ p {
     width: auto;
     height: 400px;
 }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
