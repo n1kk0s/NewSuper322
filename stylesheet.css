@@ -25,3 +25,7 @@ p {
   float: none;
   vertical-align: top;
 }
+
+thead td {
+    color: darkgrey;
+}
