@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="stylesheet.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+        function validateForm() {
+            var x = document.forms["submitQuestion"]["email"].value;
+            var y = document.forms["submitQuestion"]["question"].value;
+            if (x == "" || y =="")
+            {
+                alert("Both fields must be filled out");
+                return false;
+            }
+            else
+            {
+                alert("Form isn't completed yet!");
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="container">
@@ -34,8 +49,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-lg-6">
+            <div class="col-sm-2"></div>
+            <div class="col-lg-4">
                 <p>
                     <h2>Need Directions?</h2>
                     Our address is: 1682 Woodland Bigler Hwy, Woodland, PA 16881<br>
@@ -54,23 +69,20 @@
                     <img class="img-responsive" alt="Facebook" height="40px" src="images/facebook.png" width="40px" />
                     </a>
             </div>
-            <div class="col-sm-1"></div>
-            <div class="col-lg-3">
-                <p>
-                    <h3>Phone Number:</h3>
-                    (814) 857-7821
-                </p>
-                <p>
-                    <h3>Hours</h3>
-                    Open Fridays, Saturdays, and Sundays from May through September.
-                </p>
-                <p>
-                    <h3>Like us on Facebook!</h3>
-                    <a href="https://www.facebook.com/Super-322-Drive-In-118156611600993/timeline">
-                    <img class="img-responsive" alt="Facebook" height="40px" src="images/facebook.png" width="40px" />
-                    </a>
+            <div class="col-lg-4">
+                <form name="submitQuestion" onsubmit="return validateForm()">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Question:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter question">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
             </div>
-            <div class="col-sm-1"></div>
+            <div class="col-sm-2"></div>
         </div>
         <div class="row">
             <div class="col-sm-12">
