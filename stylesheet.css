@@ -21,6 +21,11 @@ p {
     height: 400px;
 }
 
+#thumbnail {
+    width:auto;
+    height: 200px;
+}
+
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
