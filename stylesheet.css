@@ -1,9 +1,10 @@
 body {
-    background-color: black;
+    background-image: url("images/allowedStars.jpg");
+    background-attachment: fixed;
 }
 
 .container {
-    background-color: black;
+    background-color: #000000;
 }
 
 #light {
