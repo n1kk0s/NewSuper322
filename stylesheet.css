@@ -1,6 +1,7 @@
 body {
     background-image: url("images/allowedStars.jpg");
     background-attachment: fixed;
+    font-family: Azo;
 }
 
 .container {
@@ -30,8 +31,19 @@ p {
   display: inline-block;
   float: none;
   vertical-align: top;
+  font-weight: bold;
 }
 
 thead td {
     color: darkgrey;
+}
+
+@font-face {
+    font-family: Azo;
+    src: url(azo/regular.otf);
+    font-weight: normal;
+}
+
+#footer {
+    background-color: #f1f1f1;
 }
