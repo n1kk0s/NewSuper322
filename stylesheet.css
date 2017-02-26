@@ -47,3 +47,10 @@ thead td {
 #footer {
     background-color: #f1f1f1;
 }
+
+hr {
+    width: 100%; 
+    color: darkgrey; 
+    height: 3px; 
+    background-color:darkgrey;
+}
