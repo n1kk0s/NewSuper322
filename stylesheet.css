@@ -54,3 +54,10 @@ hr {
     height: 3px; 
     background-color:darkgrey;
 }
+
+#map {
+    border: 2px solid darkgrey;
+    border-radius: 20px;
+    width: 100%;
+    height:auto;
+}
