@@ -17,6 +17,11 @@ body {
     height: auto;
 }
 
+#card {
+    width: 85%;
+    height: auto;
+}
+
 p {
     padding-left: 10px;
     padding-right: 10px;
