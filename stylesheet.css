@@ -4,12 +4,47 @@ body {
     font-family: Azo;
 }
 
+.nav-pills a{
+    color: #737373;
+}
+
+.nav-pills>li>a:hover {
+	background-color: #FF3333;
+    color: white;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+background-color:#FF3333;
+color:white;
+}
 .container {
     background-color: #000000;
 }
 
 #light {
     background-color: #f1f1f1;
+}
+
+#gallery_img {
+    max-height: 150px;
+    max-width: 150px;
+    width:auto;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#facebook {
+    width: 40px;
+    height: 40px;
+    background: url(images/iconbw.jpg);
+}
+
+#facebook:hover {
+    width: 40px;
+    height: 40px;
+    background: url(images/icon.jpg);
 }
 
 #logo {
