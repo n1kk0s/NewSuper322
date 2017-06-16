@@ -41,17 +41,21 @@ color:white;
 #counter {
     margin: 0 auto;
 }
-/*
-#facebook {
-    margin: 0 auto;
-}
 
-#facebook:hover {
+.fbicon {
     width: 40px;
     height: 40px;
-    background: url(images/icon.jpg);
+    margin: 0 auto;
+    background-color: grey;
 }
-*/
+
+.fbicon:hover {
+    background-color: red;
+    -webkit-transition: background-color 600ms linear;
+    -ms-transition: background-color 600ms linear;
+    transition: background-color 600ms linear;
+}
+
 #crossfade {
     margin: auto;
     float: left;  
@@ -135,7 +139,6 @@ hr {
 #banner {
     padding: 0;
     margin: 0;
-    background-color: white;
 }
 
 #goFundMe {
