@@ -4,6 +4,13 @@ body {
     font-family: Azo;
 }
 
+.subheading {
+    text-transform: uppercase;
+    color: #FF3333;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .nav-pills a{
     color: #737373;
 }
