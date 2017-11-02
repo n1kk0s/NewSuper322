@@ -65,7 +65,7 @@ color:white;
 
 #crossfade {
     margin: auto;
-    float: left;  
+    float: left;
 }
 #crossfade img {
     position: absolute;
@@ -73,10 +73,10 @@ color:white;
     -webkit-transition: opacity 0.3s ease-in-out;
     -moz-transition: opacity 0.3s ease-in-out;
     -o-transition: opacity 0.3s ease-in-out;
-    -ms-transition: opacity 0.3s ease-in-out;    
+    -ms-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
 }
- 
+
 #crossfade img.top:hover {
     opacity:0;
 }
@@ -115,6 +115,10 @@ p {
   margin-right: 4%;
 }
 
+#ruleList {
+    line-height: 2.5rem;
+}
+
 thead td {
     color: darkgrey;
 }
@@ -130,9 +134,9 @@ thead td {
 }
 
 hr {
-    width: 100%; 
-    color: darkgrey; 
-    height: 3px; 
+    width: 100%;
+    color: darkgrey;
+    height: 3px;
     background-color:darkgrey;
 }
 
