@@ -110,7 +110,15 @@ color:white;
     height: 200px;
 }
 
-/* DIV STYLES */
+.rotate90 {
+ -webkit-transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -o-transform: rotate(90deg);
+ -ms-transform: rotate(90deg);
+ transform: rotate(90deg);
+ }
+
+/* DIV STYLES - Yes, I know I should have classed them. Don't judge */
 #footer {
     background-color: #f1f1f1;
 }
