@@ -1,16 +1,11 @@
-body {
-    background-image: url("images/allowedStars.jpg");
-    background-attachment: fixed;
+/* FONT DEFINITIONS */
+@font-face {
     font-family: Azo;
+    src: url(azo/regular.otf);
+    font-weight: normal;
 }
 
-.subheading {
-    text-transform: uppercase;
-    color: #FF3333;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
+/* NAVIGATION STYLES */
 .nav-pills a{
     color: #737373;
 }
@@ -20,35 +15,21 @@ body {
     color: white;
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
 background-color:#FF3333;
 color:white;
 }
 
-.container {
-    background-color: #000000;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  font-weight: bold;
+  margin-left: -2%;
+  margin-right: 4%;
 }
 
-#light {
-    background-color: #f1f1f1;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-#gallery_img {
-    max-height: 150px;
-    max-width: 150px;
-    width:auto;
-    height:auto;
-    display: block;
-    margin: 0 auto;
-
-}
-
-#counter {
-    margin: 0 auto;
-}
-
+/* FACEBOOK ICON STYLES */
 .fbicon {
     width: 40px;
     height: 40px;
@@ -67,6 +48,7 @@ color:white;
     margin: auto;
     float: left;
 }
+
 #crossfade img {
     position: absolute;
     opacity: 1;
@@ -81,69 +63,7 @@ color:white;
     opacity:0;
 }
 
-#logo {
-    width: 300px;
-    height: auto;
-}
-
-#card {
-    width: 85%;
-    height: auto;
-}
-
-p {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#poster {
-    width: auto;
-    height: 400px;
-}
-
-#thumbnail {
-    width:auto;
-    height: 200px;
-}
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-  font-weight: bold;
-  margin-left: -2%;
-  margin-right: 4%;
-}
-
-#ruleList {
-    line-height: 2rem;
-}
-
-#ruleList li {
-    margin: 15px auto;
-}
-
-thead td {
-    color: darkgrey;
-}
-
-@font-face {
-    font-family: Azo;
-    src: url(azo/regular.otf);
-    font-weight: normal;
-}
-
-#footer {
-    background-color: #f1f1f1;
-}
-
-hr {
-    width: 100%;
-    color: darkgrey;
-    height: 3px;
-    background-color:darkgrey;
-}
-
+/* IMAGE STYLES */
 #map {
     border: 2px solid darkgrey;
     border-radius: 20px;
@@ -159,4 +79,92 @@ hr {
 #goFundMe {
     width: 60%;
     height: auto;
+}
+
+#gallery_img {
+    max-height: 150px;
+    max-width: 150px;
+    width:auto;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 300px;
+    height: auto;
+}
+
+#card {
+    width: 85%;
+    height: auto;
+}
+
+#poster {
+    width: auto;
+    height: 400px;
+}
+
+#thumbnail {
+    width:auto;
+    height: 200px;
+}
+
+/* DIV STYLES */
+#footer {
+    background-color: #f1f1f1;
+}
+
+.container {
+    background-color: #000000;
+}
+
+#light {
+    background-color: #f1f1f1;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#counter {
+    margin: 0 auto;
+}
+
+/* BASE STYLES */
+
+body {
+    background-image: url("images/allowedStars.jpg");
+    background-attachment: fixed;
+    font-family: Azo;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+thead td {
+    color: darkgrey;
+}
+
+hr {
+    width: 100%;
+    color: darkgrey;
+    height: 3px;
+    background-color:darkgrey;
+}
+
+/* OTHER STYLES */
+.subheading {
+    text-transform: uppercase;
+    color: #FF3333;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#ruleList {
+    line-height: 2rem;
+}
+
+#ruleList li {
+    margin: 15px auto;
 }
