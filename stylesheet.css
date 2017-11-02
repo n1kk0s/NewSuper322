@@ -116,7 +116,11 @@ p {
 }
 
 #ruleList {
-    line-height: 2.5rem;
+    line-height: 2rem;
+}
+
+#ruleList li {
+    margin: 15px auto;
 }
 
 thead td {
