@@ -119,6 +119,12 @@ color:white;
  }
 
 /* DIV STYLES - Yes, I know I should have classed them. Don't judge */
+.bubba {
+    margin-top: 20px;
+    display: inline-block;
+    height: 320px;
+}
+
 #footer {
     background-color: #f1f1f1;
 }
