@@ -116,13 +116,16 @@ color:white;
  -o-transform: rotate(90deg);
  -ms-transform: rotate(90deg);
  transform: rotate(90deg);
+ width: 340px;
+ height: 175px;
+ margin: 20px auto;"
  }
 
 /* DIV STYLES - Yes, I know I should have classed them. Don't judge */
 .bubba {
-    margin-top: 20px;
-    display: inline-block;
-    height: 320px;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
 }
 
 #footer {
